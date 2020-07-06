@@ -1,0 +1,1065 @@
+/* Write some CSS below */
+body {
+	font-family: Courier;
+	font-size: 18px;
+	color: rgb(30,30,30);
+	background-color: white;
+	margin: 0px;
+} 
+
+h1, h2{
+	font-family: 'Old Standard TT', serif;
+	color: white;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	font-family: 'Old Standard TT', serif;
+	font-weight: bold;
+}
+
+a:hover {
+  color: #fdcb59;
+}
+
+h3{
+	font-family: 'Paprika', cursive;
+}
+
+p{
+	font-family: 'Paprika', cursive;
+	font-size: 14px
+}
+
+
+
+
+/* Custom class design page 1 */
+
+.navbar {
+  overflow: hidden;
+  background-color: #191970   ;
+}
+
+.menu-deroulant, .menu-deroulant ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 18px;
+}
+
+.menu-deroulant {
+    text-align: center;
+    margin: 0px;
+    margin-top: 20px;
+
+}
+.menu-deroulant li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.menu-deroulant ul li {
+    display: inherit;
+
+}
+.menu-deroulant a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-family: Old Standard TT;
+
+}
+
+.menu-deroulant a:hover {
+  overflow: hidden;
+}
+
+.menu-deroulant ul {
+    position: absolute;
+    left: -999em;
+    text-align: center;
+    z-index: 2;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	border-radius: 3px;
+
+}
+.menu-deroulant li:hover ul {
+    left: auto;
+
+}
+
+.elo{
+  margin-top: -20px;
+  margin-left: 50px;
+}
+
+.elo a {
+  color: white;
+  font-family: Oswald
+}
+
+.linkedin{
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+  overflow: hidden;
+  float: right;
+  position: relative;
+  right: 0%;
+  margin:0 20px;
+  margin-top: -30px;
+  margin-bottom: 10px;  
+}
+
+
+.btn-green {
+	background-color: #191970 ;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 10px;
+}
+
+
+.banner {
+	background-image: url(images/home.jpeg);
+  background-size: cover;
+  background-color: #191970;
+	color: white;
+	text-align: center;
+	padding: 100px 0px;
+  border-bottom: 16px solid #191970;
+}
+
+.banner h1{
+	font-size: 60px;
+	margin-bottom: 0.5px;
+	margin-top: -50px;
+}
+
+.banner h2{
+	font-size:27px;
+	opacity: 0.9;
+	margin-bottom:50px;
+
+}
+
+
+.container{
+width: 800px;
+margin: auto;
+}
+
+
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+
+}
+
+
+.box-white{
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 350px;
+  text-align: center;
+  padding: 4px;
+  margin: 0px;
+}
+
+.box-white img{
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.box-white h3{
+  margin-bottom: 5;
+}
+
+.container h2 {
+	margin-left: -10px ;
+	color: black;
+  font-family: Montserrat;
+}
+
+/* Media queries */
+/* Box */
+@media (max-width: 800px) {
+.box {
+    grid-template-columns: 1fr;
+}
+
+.card-white {
+    width: auto;
+  }
+}
+
+/* Container */
+@media (min-width: 500px) {
+.container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+.container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+.container {
+    width: 800px;
+  }
+}
+
+
+.outro{
+    border-top: 10px solid #191970;
+    text-align: center;
+    background-image: url(images/home.jpeg);
+    background-size: cover;
+    opacity: 0,2;
+    padding: 20px;
+}
+
+.outro a{
+    font-family: 'Old Standard TT', serif;
+    font-size: 20px;
+    color: white;
+
+}
+
+.outro a:hover {
+  color: #FFE436;
+}
+
+
+/* footer */
+
+.footer{
+	background-color: white;
+	text-align: center;
+	padding: 30px;
+}
+
+
+
+
+.fr{
+	width: 50px;
+	height: 50px;
+	border-radius: 60%;
+  overflow: hidden;
+  float: right;
+  position: relative;
+	right: 0%;
+}
+
+.mail{
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  left: 0%;
+}
+
+.ang{
+  width: 50px;
+  height: 50px;
+  border-radius: 60%;
+  overflow: hidden;
+  float: right;
+  position: relative;
+  right: 0%;
+}
+
+.footer {
+  background-size: cover;
+  background-color: #191970;
+}
+
+.footer p{
+	float: center;
+  margin-top: -10px;
+	color: black;
+}
+
+.bottom {
+  text-align: center ;
+}
+
+.bottom p{
+  color: white;
+  font-family: 'Paprika', cursive;
+  font-size:15px;
+}
+
+/* Education page */
+
+.banner-edu{
+    background-image: url(images/edu1.jpeg);
+    background-size: cover;
+    padding: 120px;
+    background-size: cover;
+    background-color: #191970;
+    color: white;
+    text-align: center;
+    border-bottom: 16px solid #191970;
+}
+
+.banner-edu h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.container1{
+width: 1200px;
+margin: auto;
+}
+
+.edu {
+    display: table;
+    grid-template-columns: 1fr 1fr;
+}
+
+.edu h2{
+  color: #191970;  
+  font-family: Old Standard TT ;
+}
+
+
+.edu1{
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 100px;
+  padding: 20px;
+
+
+}
+
+.edu1 img{
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  align-self: left;
+  align-self: center;
+  
+}
+
+.edutxt{
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 1000px;
+  text-align: left;
+  padding: 24px;
+  margin: 140px;
+  margin-top: -100px;
+  margin-bottom: 10px;
+}
+
+.edutxt p{
+  font-family: Overpass;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 15px;
+    text-align: justify;
+}
+
+.edutxt h3{
+  font-family: Overpass;
+  color: #191970;  
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+.edutxt h4{
+  font-family: Overpass;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+
+
+
+
+/* Experiences page */
+
+.banner-exp{
+    background-image: url(images/exp.jpeg);
+    background-size: cover;
+    padding: 120px;
+    background-size: cover;
+    background-color: #191970;
+    color: white;
+    text-align: center;
+    border-bottom: 16px solid #191970;
+}
+
+
+
+.banner-exp h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.container-exp{
+  width: 1200px;
+  margin: auto;
+}
+
+.exp {
+    display: table;
+    grid-template-columns: 1fr 1fr;
+}
+
+.exp h2{
+  color: #191970;  
+  font-family: Old Standard TT ;
+}
+
+
+.exp1{
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 100px;
+  padding: 20px;
+  margin-right: 0;
+
+
+}
+
+.exp1 img{
+  width: 100px;
+  height: 90px;
+  border-radius: 4px;
+  align-self: left;
+  align-self: center;
+  
+}
+
+.exptxt{
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 1000px;
+  text-align: left;
+  padding: 24px;
+  margin: 140px;
+  margin-top: -100px;
+  margin-bottom: 10px;
+}
+
+.exptxt p{
+  font-family: Overpass;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  text-align: justify;
+
+}
+
+.exptxt h3{
+  font-family: Overpass;
+  color: #191970;  
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+.exptxt h4{
+  font-family: Overpass;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.btn-exp {
+  background-color: #00000 ;
+  color: #191970;
+  padding: 1px 1px;
+  border-radius: 6px;
+  font-family: Overpass;
+  font-size: 18px;
+  margin-left: 400px;
+}
+
+/* Skills page */
+
+.banner-skill{
+  background-image: url(images/skillb.jpeg);
+  background-size: cover;
+  padding: 120px;
+  background-size: cover;
+  background-color: #191970;
+  color: white;
+  text-align: center;
+  border-bottom: 16px solid #191970;
+}
+
+.banner-skill h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.containerskill{
+width: 800px;
+margin-left: 200px;
+}
+
+.line{
+  border-top: 2px dashed #191970;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  grid-gap: 50px; 
+}
+
+
+#digiskill h2{
+  color: black;
+  margin-bottom: 5px;
+}
+
+#proskill h2{
+  color: black;
+}
+
+#langues h2{
+  color: black;
+}
+
+
+.skill1 {
+  background-color: white;
+  box-shadow:1px 1px 10px rgba(0,0,0.1);
+  text-align: center;
+  color: white;
+  border-radius: 6px;
+  margin: 10px;
+  width: 300px;
+  height: 350px;
+}
+
+
+.skill1 img{
+  margin-top: 10px; 
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  align-self: center; 
+}
+
+.skill1 p{
+color: black;
+font-family: Overpass;
+font-size: 16px;
+margin-left: 15px;
+margin-right: 15px;
+text-align: justify;
+}
+
+.skill1 h3{
+color: black;
+font-family: Overpass;
+margin-bottom: 6px
+}
+
+.containerskill h3{
+  color: black;
+  font-family: Courrier;
+  margin-top: 5px;
+}
+
+.skill2 {
+  background-color: white;
+  box-shadow:1px 1px 10px rgba(0,0,0.1);
+  text-align: center;
+  color: white;
+  border-radius: 6px;
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+
+.skill2 img{
+  margin-top: 5px; 
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  align-self: center; 
+}
+
+.skill2 p{
+color: black;
+font-family: Overpass;
+font-size: 18px;
+margin-left: 15px;
+margin-right: 15px;
+text-align: center;
+margin-top: 5px;
+margin-bottom: 5px
+}
+
+.skill2 h3{
+color: black;
+font-family: Overpass;
+margin-bottom: 8px
+}
+
+.skill3 {
+  background-color: white;
+  box-shadow:1px 1px 10px rgba(0,0,0.1);
+  text-align: center;
+  color: white;
+  border-radius: 6px;
+  margin: 10px;
+  width: 300px;
+  height: 250px;
+}
+
+
+.skill3 img{
+  margin-top: 10px; 
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  align-self: center; 
+}
+
+.skill3 p{
+color: black;
+font-family: Overpass;
+font-size: 16px;
+margin-left: 15px;
+margin-right: 15px;
+text-align: justify;
+}
+
+.skill3 h3{
+color: black;
+font-family: Overpass;
+margin-top: 25px;
+}
+
+.btn-cert {
+  background-color: #191970 ;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+.line-skill{
+  background-size: cover;
+  background-color: #191970;
+  color: white;
+  text-align: center;
+  padding: 2px 0px;
+  border-bottom: 5px solid #191970;
+}
+
+.line-yellow{
+    background-size: cover;
+  background-color: yellow;
+  color: white;
+  text-align: center;
+  padding: 1px 0px;
+  border-bottom: 3px solid #fdcb59;
+  margin-right: 150px;
+  margin-top: 20px;
+}
+
+/* About page */
+
+.banner-about{
+  background-image: url(images/about.jpeg);
+  background-size: cover;
+  padding: 120px;
+  background-size: cover;
+  background-color: #191970;
+  color: white;
+  text-align: center;
+  border-bottom: 16px solid #191970;
+}
+
+#softskill h2{
+  color: #191970;
+  margin-bottom: 5px;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  text-align: center;
+  font-size: 40px;
+  font-family: Old Standard TT ;
+
+}
+
+#interest h2{
+  color: #191970;
+  margin-bottom: 0px;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  text-align: center;
+  font-size: 40px;
+  font-family: Old Standard TT ;
+}
+
+#interest h3{
+  color: black;
+  margin-bottom: 0px;
+  margin-top:0px;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  text-align: center;
+  font-size: 28px;
+  font-family: Old Standard TT ;
+}
+
+#interest p{
+  color: black;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  text-align: center;
+  font-size: 18px;
+  font-family: Old Standard TT ;
+}
+
+#contact h2{
+  color: #191970;
+  margin-bottom: 0px;
+  grid-column: 1 / 4;
+  grid-row: 1;
+  text-align: center;
+  font-size: 40px;
+  font-family: Old Standard TT ;
+}
+
+.containerabout{
+margin-left: 0px;
+margin-bottom: 20px;
+}
+
+
+.soft {
+    display: grid;
+    background: white;
+    opacity: 10;
+    grid-auto-rows: minmax(70px, auto);
+    grid-template-columns: repeat(4, 25%);
+    text-align: center;
+    align-content: center;
+    width: 100%;
+}
+
+.soft1{
+  background: white;
+  width: auto;
+  text-align: justify;
+  padding: 24px;
+}
+
+.soft1 img {
+  width: 75px;
+  height: 75px;
+  display: block;
+  object-fit: cover;
+  margin-left: 115px;
+
+}
+
+.soft1 p{
+  font-family: Overpass;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+
+}
+.soft1 h3{
+  font-family: Courrier;
+  display: block;
+  text-align: center;
+}
+
+.ban{
+  background-size: cover;
+  background-size: cover;
+  background-color: #191970;
+  color: white;
+  text-align: center;
+  border-bottom: 16px solid #191970;
+}
+
+
+
+/* About page - map */
+
+.content h2, p{
+  text-align: center;
+  color: black;
+  font-family: Overpass;
+}
+
+.content h2{
+  font-size: 18px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.centered-y {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 20%;
+  right: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.centered-y h2{
+  margin-bottom: 5px;
+
+}
+
+.centered-y p{
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+
+
+.map {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+
+}
+.map > img {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.map .map-point {
+  cursor: pointer;
+  outline: none;
+  z-index: 0;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #fdcb59;
+  border: 1px solid black;
+}
+.map .map-point .content {
+
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  -webkit-transform: translateX(0%);
+  transform: translateX(-20%);
+
+}
+.map .map-point:active, .map .map-point:focus {
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  width: 200px;
+  height: 150px;
+  color: #e5e5e5;
+  z-index: 1;
+  -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
+}
+.map .map-point:active .content, .map .map-point:focus .content {
+  opacity: 1;
+  -moz-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+  -webkit-transition-delay: 0.25s, 0s, 0s;
+  -webkit-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+  overflow: hidden;
+}
+
+/* About page */
+
+
+.contact {
+    display: grid;
+    background: white;
+    opacity: 10;
+    grid-template-columns: repeat(3, 33%);
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    grid-gap: -50px; 
+}
+
+.contact1{
+  background: white;
+  width: auto;
+  text-align: justify;
+  padding: 2px;
+  margin: 10px;
+}
+
+.contact1 img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  object-fit: cover;
+  margin-left: 180px;
+
+}
+
+.contact2 img {
+  width: 100px;
+  height: 150px;
+  display: block;
+  object-fit: cover;
+  margin-left: 180px;
+  margin-top: 20px;
+
+}
+
+.contact1 p{
+  font-family: Overpass;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+
+}
+.contact1 h3{
+  font-family: Courrier;
+  display: block;
+  text-align: center;
+}
+
+.dot{
+  border-top: 0.5px dashed ;
+  margin-bottom: 30px;
+}
+
+/*certification*/
+
+.banner-cert{
+  background-image: url(images/cert.jpeg);
+  background-size: cover;
+  padding: 120px;
+  background-size: cover;
+  background-color: #191970;
+  color: white;
+  text-align: center;
+  border-bottom: 16px solid #191970;
+}
+
+.banner-cert h1{
+  color: #191970;
+}
+
+.container-cert{
+margin-left: 0px;
+margin-bottom: 10px;
+margin-top: 10px;
+
+}
+
+.container-cert h1{
+  background-color: white;
+  color: #191970;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Old Standard TT ;
+}
+
+
+
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 10s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide:nth-child(1) {
+  background: white;
+}
+
+.slide:nth-child(2) {
+  background: white;
+}
+
+.slide:nth-child(3) {
+  background: white;
+}
+
+.slide:nth-child(4) {
+  background: white;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+
+
+#datacamp{
+  display: grid;
+  background: white;
+  opacity: 10;
+  grid-template-columns: repeat(1, 100%);
+  text-align: center;
+  align-content: center;
+  margin-left: 220px;
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
